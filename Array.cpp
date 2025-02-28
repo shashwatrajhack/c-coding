@@ -26,6 +26,15 @@ int main(){
     n = 20;
     printArray(a,10);
 
+    char ch[5] = {'a','q','w','e','r'};
+    cout<<"5th element"<<" "<<ch[4]<<endl;
+
+    cout<<"printing the array"<<endl;
+    for(int i = 0;i<=5;i++){
+        cout<<ch[i]<<" ";
+    }
+    cout<<"printing done"<<endl;
+
 
     cout<<"everything is fine"<<endl;
 }
